@@ -19,8 +19,14 @@ A single-nucleotide polymorphism (SNP, pronounced snip) is a DNA sequence var
 * ALT : the sample SNP is campared with reference to the REF SNP. If there were any differences, it would appear in the ALT column. 
 
 For example:
-CHROM POS ID    REF ALT   QUAL FILTER INFO
-20     3   .     C   CTAG  .    PASS DP=100
+<table>
+<tr>
+<th>CHROM</th> <th>POS</th> <th>ID</th> <th>REF</th> <th>ALT</th> <th>QUAL</th> <th>FILTER</th> <th>INFO</th>
+</tr>
+<tr>
+<td>20</td> <td>3</td> <td> *</td> <td>C</td> <td>CTAG</td> <td>*</td> <td>PASS</td> <td>DP=100</td> 
+</tr>
+</table>
 
 The reference has a Cytosine at chromosome 20, position 3. The sample has CTAG at that same position, which indicates an insertion mutation since the reference base C is being replaced by C [the reference base] plus three insertion bases TAG.
 
