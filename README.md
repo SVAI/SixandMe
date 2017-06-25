@@ -1,10 +1,10 @@
-#Ranking Mutations
+# Ranking Mutations
 
-##Objective:
+## Objective:
 * identify and rank mutations in NF2
 
-##Introduction:
-###Understanding VCF data
+## Introduction:
+### Understanding VCF data
 Samples: The genetic data provided comprised of genetic data from three different samples.
 * OF_010116NF2_a : patient’s tumor sample 
 * OF_112015SJIA_2: patient’s blood sample 
@@ -26,7 +26,7 @@ The reference has a Cytosine at chromosome 20, position 3. The sample has CTAG a
 
 To see how other mutations are represented in the VCF data, read https://samtools.github.io/hts-specs/VCFv4.3.pdf
 
-##Method
+## Method
 1. Created a script(separate_files.py) that isolated the chromosome positions that were different from the references (i.e. did not have a GT of 0/0). This resulted in three smaller, more manageable files - 
 * normal.csv 
 * tumor.csv
